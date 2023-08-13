@@ -123,7 +123,7 @@ async function claimAirdrop() {
 
 // Function to generate a referral link
 function generateReferralLink(bep20Address) {
-  const referralLink = `https://hippoai.vip/${bep20Address}`;
+  const referralLink = `https://zeshann110.github.io/hippoai/${bep20Address}`;
   document.getElementById("referralLink").href = referralLink;
   document.getElementById("referralLink").innerText = referralLink;
 }
